@@ -1,6 +1,8 @@
-<div style="margin: 100px;">
-    <h1>Voice recognition</h1>
-    <button style="margin: 10px;" (click)="startService()">Start</button>
-    <button style="margin: 10px;" (click)="stopService()">Stop</button>
-    <p>{{service.text}}</p>
+<div style="margin: 100px; text-align:center;">
+  <h1>Transação por voz</h1>
+  <button class="btn btn-primary" (click)="startService()">Começar</button>
+  <button class="btn btn-secondary margin-left-1" (click)="stopService()">
+    Parar
+  </button>
+  <p>{{service.text}}</p>
 </div>
